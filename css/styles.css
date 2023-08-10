@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --primary-color:rgb(33, 150, 243);
+    --font-color:rgb(33, 33, 33);
+    --detail-color: rgb(255, 255, 255);
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color); 
+}
+.main__header {
+    background-color: var(--detail-color);
+}
+.solutions {
+    background-color: rgb(47, 48, 58);
+}
+.ourplus {
+    background-color: var(--detail-color);
+}
+.ourwork {
+    background-color: var(--detail-color);
+}
+.page__ending {
+    background-color: rgb(47, 48, 58);
+}
+.main__icon {
+    color: inherit;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+}
+.web__navigation .navigation__link {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.85;
+    letter-spacing: 0.02em;
+}
+.web__navigation .navigation__link:hover,
+.web__navigation .navigation__link:focus {
+    color: inherit;
+}
+.contact__info .contact__link {
+    color: rgb(117, 117, 117);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.85;
+    letter-spacing: 0.02em;
+}
+.contact__info .contact__link:hover,
+.contact__info .contact__link:focus {
+    color: inherit;
+}
+.navigation__link.current {
+    color: inherit;
+}
+.solutions .solutions__tittle {
+    color: var(--detail-color);
+    font-family: inherit;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+.ourplus__item .ourplus__tittle {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+}
+.ourplus__item .ourplus__text {
+    color: rgb(117, 117, 117);
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+}
+.ourwork .ourwork__tittle {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.solutions .solutions__button {
+    color: var(--detail-color);
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 0.53;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.categories__item .categories__button {
+    color: var(--font-color);
+    border-radius: 4px;
+    background-color: rgb(245, 244, 250);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.61;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.categories__item .categories__button:hover,
+.categories__item .categories__button:focus {
+    color: var(--detail-color);
+    background-color: var(--primary-color);
+}
+.webstudio__portafolio {
+    background-color: var(--detail-color);
+}
+.ourteam .ourteam__tittle {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.ourteam__item .ourteam__subtittle {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+}
+.ourteam__item .ourteam__text {
+    color: rgb(117, 117, 117);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+}
+.page__ending .ending__icon {
+    color: inherit;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 0.85;
+    letter-spacing: 0.03em;
+}
+.ending__item .ending__address {
+    color: var(--detail-color);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+}
+.ending__contact .ending__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+}
+.ending__contact .ending__link:hover,
+.ending__contact .ending__link:focus {
+    color: inherit;
+}
+.portafolio__item .portafolio__tittle {
+    color: var(--font-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+}
+.portafolio__item .portafolio__text {
+    color: rgb(117, 117, 117);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 0.53;
+    letter-spacing: 0.03em;
+}
